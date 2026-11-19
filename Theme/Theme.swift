@@ -31,8 +31,6 @@ extension Color {
 }
 
 extension Font {
-    // Product Sans if it is added to the project, otherwise the system font.
-    // `relativeTo` keeps Dynamic Type (text scales with the user's settings).
     static func app(_ size: CGFloat, relativeTo style: Font.TextStyle = .body) -> Font {
         .custom("ProductSans-Regular", size: size, relativeTo: style)
     }
