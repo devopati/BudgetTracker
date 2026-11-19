@@ -26,7 +26,7 @@ struct BalanceCardView: View {
             }
 
             Text(remaining >= 0
-                 ? "remaining on your monthly budget"
+                 ? "remaining on your monthlly budget"
                  : "over your monthly budget")
                 .font(.app(15))
         }
